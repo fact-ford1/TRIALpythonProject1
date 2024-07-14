@@ -1,4 +1,4 @@
-score = int(input("ENTER YOUR EXAMS SCORE="))
+score = int(input("ENTER YOUR EXAMS SCORE: "))
 if 90 <= score <= 100:
     grade = "A"
 elif 80 <= score <= 89:
@@ -9,7 +9,9 @@ elif 60 <= score <= 69:
     grade = "D"
 elif 50 <= score <= 59:
     grade = "E"
-elif 0 <= score <= 49:
+# elif 0 <= score <= 49:
+#     grade = "F"
+else:
     grade = "F"
 print()
 print(grade)
